@@ -1,0 +1,57 @@
+.chat-page {
+  border-color: hsla(180, 71%, 56%, 0.39);
+  border-style: solid;
+  width: 400px;
+  height: 650px;
+  margin: 0 auto;
+  background-image: url(https://wallpapergram.ir/wp-img/tn_WallpaperGram.IR_1561886282_z67112.jpg);
+  border-radius: 20px;
+  background-attachment: scroll;
+  
+}
+.chat-item {
+  background-color: black;
+  color: aliceblue;
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  position: relative;
+}
+.chat-item p {
+  padding: 6px;
+  padding-left: 30px;
+}
+.chat-item::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  bottom: 0px;
+  left: -1px;
+  transform: rotatez(100deg) skew(50deg);
+
+}
+.my-text{
+    background-color:  #000ba3;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 180px;
+    position: relative;
+    
+
+    
+}
+.my-text::before{
+    content: '';
+    background-color:  #000ba3;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -1px;
+    bottom: 2px;
+    transform: rotatez(10deg) skew(50deg);
+
+}
